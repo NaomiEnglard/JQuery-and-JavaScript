@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sum the Numbers</title>
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 	
+   	<script>
+        //ask user what the highest number to sum should be
+        do{
+        var number = prompt("enter a number from 1-100 as the top number to sum",5);
+        number=parseInt(number);
+        if (number<1 || number>100 || isNaN(number)){
+        	alert("enter a number between one and a hundred")
+        }
+        }while(number<1 || number>100);
+        //add up the sum of the numbers from 1 to the value entered
+        var sum=0 ,counter;
+        for (counter=1;counter<=number; counter++){
+        	sum += counter;
+        }	
+        alert("the sum fo the numbers 1 throught "+number+" is " + sum);
+        alert("Sum the Numbers from 1 through entry");
+        
+    </script>
+</head>
+<body>
+    <section>
+        <h1>This page is displayed after the JavaScript is executed</h1>
+    </section>
+</body>
+</html>
