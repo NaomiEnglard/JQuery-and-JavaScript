@@ -1,0 +1,38 @@
+body {
+	font-family: Arial;
+    background-color: #e9f56f;
+    margin: 0 auto;
+    width: 700px;
+    border: 6px solid navy;
+
+}
+section {
+    padding: 0 2em 1em;
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    width: 12em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+}
+#add,#reset{
+	width: 8 em;
+}
+label.error {
+	float: none;
+	color: red;
+	font-size: 87.5%;
+	margin-left: .5em;
+}
+li{
+	color:navy;
+	font-family: Arial;
+}
+
